@@ -1,0 +1,57 @@
+body {
+	background: #102010;
+	color: #e5e5e5;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+	color: yellow;
+}
+
+h2 {
+	font-weight: 500;
+	color: orange;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	cursor: pointer;
+	border: none;
+	background-color: #242;
+	box-shadow: 0 0 0.5rem #0004;
+	border-radius: 0.2rem;
+	padding: 0.2rem 0.5rem;
+
+	&:focus-visible {
+		outline: 1px solid white;
+		outline-offset: 2px;
+	}
+}
+
+ul {
+	padding-left: 2rem;
+}
+
+li {
+	margin-block: 0.5rem;
+}
+
+section {
+	margin-block: 2rem;
+}
+
+input[type='text'] {
+	font: inherit;
+	color: black;
+	border: none;
+	background-color: white;
+	padding: 0.2rem 0.4rem;
+	border-radius: 0.2rem;
+
+	&:focus-visible {
+		outline: 1px solid white;
+		outline-offset: 2px;
+	}
+}
