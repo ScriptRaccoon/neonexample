@@ -5,6 +5,13 @@ body {
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.wrapper {
+	max-width: 42rem;
+	margin: 0 auto;
+	padding-inline: 1rem;
+	margin-bottom: 2rem;
+}
+
 h1 {
 	color: yellow;
 }
